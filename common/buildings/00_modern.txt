@@ -1,0 +1,24 @@
+﻿building_investment_bureau = {
+    building_group = bg_construction
+    city_type = city
+    icon = "gfx/interface/icons/building_icons/construction_camp.dds"
+
+	required_construction = construction_cost_very_low
+
+    production_method_groups = {
+        pmg_investment_bureau_baseline
+    }
+}
+
+building_housing_industry = {
+    building_group = bg_light_industry
+	icon = "gfx/interface/icons/building_icons/construction_camp.dds"
+	city_type = city
+	levels_per_mesh = 5
+	
+	required_construction = construction_cost_high
+	
+	production_method_groups = {
+		pmg_housing_construction
+	}
+}

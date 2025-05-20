@@ -1,0 +1,15 @@
+﻿construction_support = {
+	texture = "gfx/interface/icons/goods_icons/wood.dds"
+	cost = 30
+	category = industrial
+	
+	prestige_factor = 5
+}
+
+house = {
+	texture = "gfx/interface/icons/goods_icons/wood.dds"
+	cost = 30
+	category = industrial
+	
+	prestige_factor = 5
+}

@@ -1,0 +1,5 @@
+﻿on_game_start_country = {
+    effect = {
+        trigger_event = { id = alpha0_intro.1 }
+    }
+}

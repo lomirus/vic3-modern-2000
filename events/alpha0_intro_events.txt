@@ -1,0 +1,20 @@
+﻿namespace = alpha0_intro
+
+alpha0_intro.1 = {
+
+	title = alpha0_intro.1.t
+	desc = alpha0_intro.1.d
+	
+
+	trigger = {
+    }
+
+	immediate = {
+	}
+
+	option = {
+		name = alpha0_intro.1.a
+	}
+	
+}
+
