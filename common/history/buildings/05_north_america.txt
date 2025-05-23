@@ -405,12 +405,12 @@
 		}
 	}
 	s:STATE_ALASKA={
-		region_state:ALK={
+		region_state:USA={
 			create_building={
 				building="building_port"
 				add_ownership={
 					country={
-						country="c:RUS"
+						country="c:USA"
 						levels=1
 					}
 				}
@@ -418,21 +418,19 @@
 				activate_production_methods={ "pm_anchorage" }
 			}
 		}
-		region_state:ATB={
-		}
 	}
 	s:STATE_WASHINGTON={
-		region_state:ORG={
+		region_state:USA={
 		}
 	}
 	s:STATE_OREGON={
-		region_state:ORG={
+		region_state:USA={
 			create_building={
 				building="building_logging_camp"
 				add_ownership={
 					building={
 						type="building_logging_camp"
-						country="c:ORG"
+						country="c:USA"
 						levels=1
 						region="STATE_OREGON"
 					}
@@ -443,75 +441,45 @@
 		}
 	}
 	s:STATE_IDAHO={
-		region_state:ORG={
-		}
-		region_state:NZP={
+		region_state:USA={
 		}
 	}
 	s:STATE_COLORADO={
-		region_state:MEX={
-		}
-		region_state:ARP={
-		}
-		region_state:UTE={
-		}
 		region_state:USA={
 		}
 	}
 	s:STATE_WYOMING={
 		region_state:USA={
 		}
-		region_state:LKT={
-		}
-		region_state:ARP={
-		}
 	}
 	s:STATE_MONTANA={
 		region_state:USA={
-		}
-		region_state:ABS={
-		}
-		region_state:LKT={
-		}
-		region_state:BLF={
 		}
 	}
 	s:STATE_NORTH_DAKOTA={
 		region_state:USA={
 		}
-		region_state:LKT={
-		}
 	}
 	s:STATE_SOUTH_DAKOTA={
-		region_state:LKT={
-		}
 		region_state:USA={
 		}
 	}
 	s:STATE_NEBRASKA={
 		region_state:USA={
 		}
-		region_state:LKT={
-		}
-		region_state:PWN={
-		}
 	}
 	s:STATE_KANSAS={
 		region_state:USA={
 		}
-		region_state:PWN={
-		}
-		region_state:COM={
-		}
 	}
 	s:STATE_OKLAHOMA={
-		region_state:SEQ={
+		region_state:USA={
 			create_building={
 				building="building_cotton_plantation"
 				add_ownership={
 					building={
 						type="building_cotton_plantation"
-						country="c:SEQ"
+						country="c:USA"
 						levels=1
 						region="STATE_OKLAHOMA"
 					}
@@ -519,8 +487,6 @@
 				reserves=1
 				activate_production_methods={ "default_building_cotton_plantation" "pm_road_carts"  }
 			}
-		}
-		region_state:COM={
 		}
 	}
 	s:STATE_ARKANSAS={
@@ -619,8 +585,6 @@
 	}
 	s:STATE_MINNESOTA={
 		region_state:USA={
-		}
-		region_state:LKT={
 		}
 	}
 	s:STATE_WISCONSIN={
@@ -2291,11 +2255,7 @@
 		}
 	}
 	s:STATE_UTAH={
-		region_state:MEX={
-		}
-		region_state:NVJ={
-		}
-		region_state:UTE={
+		region_state:USA={
 		}
 	}
 	s:STATE_SOUTH_CAROLINA={
@@ -2383,12 +2343,12 @@
 		}
 	}
 	s:STATE_HAWAIIAN_ISLANDS={
-		region_state:HAW={
+		region_state:USA={
 			create_building={
 				building="building_government_administration"
 				add_ownership={
 					country={
-						country="c:HAW"
+						country="c:USA"
 						levels=1
 					}
 				}
@@ -2400,7 +2360,7 @@
 				add_ownership={
 					building={
 						type="building_manor_house"
-						country="c:HAW"
+						country="c:USA"
 						levels=1
 						region="STATE_HAWAIIAN_ISLANDS"
 					}
@@ -2413,7 +2373,7 @@
 				add_ownership={
 					building={
 						type="building_manor_house"
-						country="c:HAW"
+						country="c:USA"
 						levels=1
 						region="STATE_HAWAIIAN_ISLANDS"
 					}
@@ -2426,7 +2386,7 @@
 				add_ownership={
 					building={
 						type="building_manor_house"
-						country="c:HAW"
+						country="c:USA"
 						levels=1
 						region="STATE_HAWAIIAN_ISLANDS"
 					}
@@ -2439,7 +2399,7 @@
 				add_ownership={
 					building={
 						type="building_financial_district"
-						country="c:HAW"
+						country="c:USA"
 						levels=1
 						region="STATE_HAWAIIAN_ISLANDS"
 					}
@@ -2452,7 +2412,7 @@
 				add_ownership={
 					building={
 						type="building_fishing_wharf"
-						country="c:HAW"
+						country="c:USA"
 						levels=1
 						region="STATE_HAWAIIAN_ISLANDS"
 					}
@@ -2464,7 +2424,7 @@
 				building="building_port"
 				add_ownership={
 					country={
-						country="c:HAW"
+						country="c:USA"
 						levels=1
 					}
 				}
@@ -2864,13 +2824,13 @@
 		}
 	}
 	s:STATE_TEXAS={
-		region_state:TEX={
+		region_state:USA={
 			create_building={
 				building="building_maize_farm"
 				add_ownership={
 					building={
 						type="building_manor_house"
-						country="c:TEX"
+						country="c:USA"
 						levels=1
 						region="STATE_TEXAS"
 					}
@@ -2883,7 +2843,7 @@
 				add_ownership={
 					building={
 						type="building_manor_house"
-						country="c:TEX"
+						country="c:USA"
 						levels=1
 						region="STATE_TEXAS"
 					}
@@ -2892,35 +2852,21 @@
 				activate_production_methods={ "default_building_vineyard_plantation" "pm_road_carts"  }
 			}
 		}
-		region_state:MEX={
-		}
-		region_state:COM={
-		}
 	}
 	s:STATE_NEVADA={
-		region_state:MEX={
+		region_state:USA={
 		}
 	}
 	s:STATE_ARIZONA={
-		region_state:MEX={
-		}
-		region_state:NVJ={
-		}
-		region_state:APC={
+		region_state:USA={
 		}
 	}
 	s:STATE_NEW_MEXICO={
-		region_state:MEX={
-		}
-		region_state:NVJ={
-		}
-		region_state:COM={
-		}
-		region_state:APC={
+		region_state:USA={
 		}
 	}
 	s:STATE_CALIFORNIA={
-		region_state:MEX={
+		region_state:USA={
 		}
 	}
 	s:STATE_SONORA={
