@@ -39,7 +39,6 @@ If you're a **modder, scripter, coder, historian, artist—or just have great id
 ## ■Usage Policy:
 You may fork and modify this mod for personal or collaborative purposes.  
 However, please **do not redistribute this mod in its original or nearly identical form without permission**, including re-uploading it as-is to other platforms (such as Steam Workshop or ModDB).
-
 This policy applies only to the **original content** created by contributors to this mod.  
 All other content—including modified game files and assets from *Victoria 3*—remains the intellectual property of Paradox Interactive.  
 Paradox retains the right to modify, restrict, or remove this mod at their discretion.
