@@ -1170,14 +1170,14 @@
 		}
 	}
 	s:STATE_ONTARIO = {
-		region_state:ONT = {
+		region_state:CAN = {
 			create_pop = {
 				culture = anglo_canadian
-				size = 366792
+				size = 378792
 			}
 			create_pop = {
 				culture = cree
-				size = 12200
+				size = 40400
 			}
 			create_pop = {
 				culture = franco_canadian
@@ -1196,8 +1196,7 @@
 				religion = protestant
 				size = 600
 			}
-		}
-		region_state:HBC = {
+
 			create_pop = {
 				culture = metis
 				size = 3996
@@ -1206,80 +1205,47 @@
 				culture = siouan
 				size = 4000
 			}
-			create_pop = {
-				culture = anglo_canadian
-				size = 12000
-			}
-			create_pop = {
-				culture = cree
-				size = 28200
-			}
 		}
 	}
 	s:STATE_NEW_BRUNSWICK = {
 		# New Brunswick: 119457 in 1834
-		region_state:NBS = {
+		region_state:CAN = {
 			create_pop = {
 				culture = anglo_canadian
-				size = 65990
+				size = 262563
 			}
 			create_pop = {
 				culture = afro_american
-				size = 667
+				size = 4000
 			}
 			create_pop = {
 				culture = franco_canadian
 				size = 52800
 			}
 		}
-		# Nova Scotia: 199906 in 1837
-		region_state:NVS = {
-			create_pop = {
-				culture = anglo_canadian
-				size = 196573
-			}
-			create_pop = {
-				culture = afro_american
-				size = 3333
-			}
-		}
 	}
 	s:STATE_QUEBEC = {
-		region_state:QUE = {
+		region_state:CAN = {
 			create_pop = {
 				culture = franco_canadian
-				size = 547200
+				size = 566400
 			}
 			create_pop = {
 				culture = anglo_canadian
-				size = 5000
+				size = 13000
 			}
 			create_pop = {
 				culture = cree
-				size = 3000
+				size = 21204
 			}
-		}
-		region_state:HBC = {
 			create_pop = {
 				culture = inuit
 				size = 4000
 			}
-			create_pop = {
-				culture = cree
-				size = 18204
-			}
-			create_pop = {
-				culture = franco_canadian
-				size = 19200
-			}
-			create_pop = {
-				culture = anglo_canadian
-				size = 8000
-			}
 		}
 	}
 	s:STATE_NEWFOUNDLAND = {
-		region_state:GBR = {
+		region_state:CAN = {
 			create_pop = {
 				culture = inuit
 				size = 7980
@@ -1295,43 +1261,23 @@
 		}
 	}
 	s:STATE_ALBERTA = {
-		region_state:HBC = {
+		region_state:CAN = {
 			create_pop = {
 				culture = anglo_canadian
 				size = 3999
 			}		
 			create_pop = {
 				culture = siouan
-				size = 8200
+				size = 37404
 			}
 			create_pop = {
 				culture = metis
-				size = 11000
-			}
-		}
-		region_state:IRC = {
-			create_pop = {
-				culture = cree
-				size = 12000
-			}
-			create_pop = {
-				culture = siouan
-				size = 12004
-			}
-		}
-		region_state:BLF = {
-			create_pop = {
-				culture = siouan
-				size = 15400
-			}
-			create_pop = {
-				culture = metis
-				size = 5000
+				size = 16000
 			}
 		}
 	}
 	s:STATE_BRITISH_COLUMBIA = {
-		region_state:ORG = {
+		region_state:CAN = {
 			create_pop = {
 				culture = anglo_canadian
 				size = 8000
@@ -1347,25 +1293,20 @@
 		}
 	}
 	s:STATE_SASKATCHEWAN = {
-		region_state:HBC = {
+		region_state:CAN = {
 			create_pop = {
 				culture = anglo_canadian
 				size = 3000
 			}			
 			create_pop = {
 				culture = siouan
-				size = 4200
+				size = 12200
 			}
 			create_pop = {
 				culture = metis
 				size = 16000
 			}
-		}
-		region_state:IRC = {
-			create_pop = {
-				culture = siouan
-				size = 8000
-			}
+
 			create_pop = {
 				culture = cree
 				size = 24000
@@ -1373,7 +1314,7 @@
 		}
 	}
 	s:STATE_MANITOBA = {
-		region_state:HBC = {
+		region_state:CAN = {
 			create_pop = {
 				culture = anglo_canadian
 				size = 14848
@@ -1395,8 +1336,7 @@
 				culture = metis
 				size = 20004
 			}
-		}
-		region_state:IRC = {
+
 			create_pop = {
 				culture = cree
 				size = 12000
@@ -1404,7 +1344,7 @@
 		}
 	}
 	s:STATE_YUKON_TERRITORY = {
-		region_state:HBC = {
+		region_state:CAN = {
 			create_pop = {
 				culture = athabaskan
 				size = 12000
@@ -1412,7 +1352,7 @@
 		}
 	}
 	s:STATE_NORTHWEST_TERRITORIES = {
-		region_state:HBC = {
+		region_state:CAN = {
 			create_pop = {
 				culture = athabaskan
 				size = 16000
@@ -1420,7 +1360,7 @@
 		}
 	}
 	s:STATE_NUNAVUT = {
-		region_state:HBC = {
+		region_state:CAN = {
 			create_pop = {
 				culture = inuit
 				size = 11980
