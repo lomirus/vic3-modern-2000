@@ -36,7 +36,7 @@ If you're a **modder, scripter, coder, historian, artist—or just have great id
 - Dynamic modern-day events and challenges
 
 ---
-## ■Usage Policy:
+## ■Usage Policy
 
 You may fork and modify this mod for personal or collaborative purposes.  
 However, please **do not redistribute this mod in its original or nearly identical form without permission**, including re-uploading it as-is to other platforms (such as Steam Workshop or ModDB).
