@@ -5003,7 +5003,7 @@ IDS = {
 }
 
 ROK = {
-	color = { 51 153 255 }
+	color = { 0 51 153 }
 	
 	country_type = recognized
 	
@@ -5011,4 +5011,15 @@ ROK = {
 	
 	cultures = { korean }
 	capital = STATE_SEOUL
+}
+
+NKO = {
+	color = { 160 0 0 }
+	
+	country_type = recognized
+	
+	tier = kingdom
+	
+	cultures = { korean }
+	capital = STATE_PYONGYANG
 }

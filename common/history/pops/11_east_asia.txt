@@ -1762,7 +1762,7 @@
 		}
 	}
 	s:STATE_SARIWON = {
-		region_state:KOR = {
+		region_state:NKO = {
 			create_pop = {
 				culture = korean
 				size = 1053067
@@ -1775,7 +1775,7 @@
 		}
 	}
 	s:STATE_PYONGYANG = {
-		region_state:KOR = {
+		region_state:NKO = {
 			create_pop = {
 				culture = korean
 				size = 2528980

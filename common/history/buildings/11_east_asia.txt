@@ -3800,12 +3800,12 @@
 		}
 	}
 	s:STATE_SARIWON={
-		region_state:KOR={
+		region_state:NKO={
 			create_building={
 				building="building_government_administration"
 				add_ownership={
 					country={
-						country="c:KOR"
+						country="c:NKO"
 						levels=1
 					}
 				}
@@ -3817,7 +3817,7 @@
 				add_ownership={
 					building={
 						type="building_manor_house"
-						country="c:KOR"
+						country="c:NKO"
 						levels=1
 						region="STATE_SARIWON"
 					}
@@ -3830,7 +3830,7 @@
 				add_ownership={
 					building={
 						type="building_manor_house"
-						country="c:KOR"
+						country="c:NKO"
 						levels=1
 						region="STATE_SARIWON"
 					}
@@ -3843,7 +3843,7 @@
 				add_ownership={
 					building={
 						type="building_manor_house"
-						country="c:KOR"
+						country="c:NKO"
 						levels=2
 						region="STATE_SARIWON"
 					}
@@ -3855,7 +3855,7 @@
 				building="building_barracks"
 				add_ownership={
 					country={
-						country="c:KOR"
+						country="c:NKO"
 						levels=5
 					}
 				}
@@ -3865,12 +3865,12 @@
 		}
 	}
 	s:STATE_PYONGYANG={
-		region_state:KOR={
+		region_state:NKO={
 			create_building={
 				building="building_government_administration"
 				add_ownership={
 					country={
-						country="c:KOR"
+						country="c:NKO"
 						levels=2
 					}
 				}
@@ -3882,7 +3882,7 @@
 				add_ownership={
 					building={
 						type="building_glassworks"
-						country="c:KOR"
+						country="c:NKO"
 						levels=2
 						region="STATE_PYONGYANG"
 					}
@@ -3895,7 +3895,7 @@
 				add_ownership={
 					building={
 						type="building_iron_mine"
-						country="c:KOR"
+						country="c:NKO"
 						levels=1
 						region="STATE_PYONGYANG"
 					}
@@ -3908,7 +3908,7 @@
 				add_ownership={
 					building={
 						type="building_manor_house"
-						country="c:KOR"
+						country="c:NKO"
 						levels=2
 						region="STATE_PYONGYANG"
 					}
@@ -3921,7 +3921,7 @@
 				add_ownership={
 					building={
 						type="building_manor_house"
-						country="c:KOR"
+						country="c:NKO"
 						levels=2
 						region="STATE_PYONGYANG"
 					}
@@ -3933,7 +3933,7 @@
 				building="building_barracks"
 				add_ownership={
 					country={
-						country="c:KOR"
+						country="c:NKO"
 						levels=10
 					}
 				}

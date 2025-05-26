@@ -5900,7 +5900,7 @@ STATES = {
 	}
 	s:STATE_SARIWON = {
 		create_state = {
-			country = c:KOR
+			country = c:NKO
 			owned_provinces = {
 				x00227F x08C343 x21D080 x4C743B x4FC1C9 x701101 x8B0207 x8FC58D x92D8ED xA0987D xA0D080 xBD9C6F xCF9212 xEDB9A8
 			}
@@ -5910,7 +5910,7 @@ STATES = {
 	}
 	s:STATE_PYONGYANG = {
 		create_state = {
-			country = c:KOR
+			country = c:NKO
 			owned_provinces = { 
 				x096D79 x11044D x12BC01 x47D537 x5204B8 x605101 x640C37 x701180 x7BEA9E x808E39 x880F26 x913CAF xA2DB51 xB8F465 xC5EF9A xDD6252 xEAF581 xF01000 xF01180
 			}
