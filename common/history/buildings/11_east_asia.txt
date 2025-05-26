@@ -548,7 +548,7 @@
 		}
 	}
 	s:STATE_OUTER_MANCHURIA={
-		region_state:CHI={
+		region_state:RUS={
 		}
 	}
 	s:STATE_SOUTHERN_MANCHURIA={
@@ -1944,13 +1944,13 @@
 		}
 	}
 	s:STATE_ULIASTAI={
-		region_state:CHI={
+		region_state:MGL={
 			create_building={
 				building="building_livestock_ranch"
 				add_ownership={
 					building={
 						type="building_manor_house"
-						country="c:CHI"
+						country="c:MGL"
 						levels=3
 						region="STATE_ULIASTAI"
 					}
@@ -1961,13 +1961,13 @@
 		}
 	}
 	s:STATE_URGA={
-		region_state:CHI={
+		region_state:MGL={
 			create_building={
 				building="building_livestock_ranch"
 				add_ownership={
 					building={
 						type="building_manor_house"
-						country="c:CHI"
+						country="c:MGL"
 						levels=5
 						region="STATE_URGA"
 					}
@@ -1980,7 +1980,7 @@
 				add_ownership={
 					building={
 						type="building_manor_house"
-						country="c:CHI"
+						country="c:MGL"
 						levels=3
 						region="STATE_URGA"
 					}
