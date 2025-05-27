@@ -5023,3 +5023,91 @@ NKO = {
 	cultures = { korean }
 	capital = STATE_PYONGYANG
 }
+
+ROC = {
+	color = { 0 51 153 }
+	
+	country_type = unrecognized
+	
+	tier = kingdom
+	
+	cultures = { han min yuanzhumin }
+	capital = STATE_FORMOSA
+}
+
+THA = {
+	color = { 204 0 0 }
+	
+	country_type = recognized
+	
+	tier = kingdom
+	
+	cultures = { thai }
+	capital = STATE_BANGKOK
+}
+
+MMR = {
+	color = { 0 102 51 }
+	
+	country_type = recognized
+	
+	tier = kingdom
+	
+	cultures = { burmese }
+	capital = STATE_PEGU
+}
+
+MLY = {
+	color = { 0 56 168 }
+	
+	country_type = recognized
+	
+	tier = kingdom
+	
+	cultures = { malay }
+	capital = STATE_MALAYA
+}
+
+SGP = {
+	color = { 220 50 50 }
+	
+	country_type = recognized
+	
+	tier = kingdom
+	
+	cultures = { han malay }
+	capital = STATE_MALAYA
+}
+
+HKG = {
+	color = { 178 34 34 }
+	
+	country_type = unrecognized
+	
+	tier = kingdom
+	
+	cultures = { han }
+	capital = STATE_SHAOZHOU
+}
+
+MAC = {
+	color = { 0 136 103 }
+	
+	country_type = unrecognized
+	
+	tier = kingdom
+	
+	cultures = { han }
+	capital = STATE_GUANGDONG
+}
+
+TLS = {
+	color = { 197 25 24 }
+	
+	country_type = unrecognized
+	
+	tier = kingdom
+	
+	cultures = { moluccan balinese }
+	capital = STATE_SUNDA_ISLANDS
+}

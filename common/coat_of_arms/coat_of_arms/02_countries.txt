@@ -25922,3 +25922,13 @@ NKO = {
 	}
 
 }
+
+ROC = {
+	pattern = "pattern_solid.tga"
+	
+	textured_emblem = {
+		texture = "republic_of_china.png"
+		instance = { scale = { 1 1 } position = { 0.5 0.5 } }
+	}
+
+}

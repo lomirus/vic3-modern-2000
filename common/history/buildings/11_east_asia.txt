@@ -1734,13 +1734,13 @@
 		}
 	}
 	s:STATE_FORMOSA={
-		region_state:CHI={
+		region_state:ROC={
 			create_building={
 				building="building_fishing_wharf"
 				add_ownership={
 					building={
 						type="building_fishing_wharf"
-						country="c:CHI"
+						country="c:ROC"
 						levels=5
 						region="STATE_FORMOSA"
 					}
@@ -1753,7 +1753,7 @@
 				add_ownership={
 					building={
 						type="building_manor_house"
-						country="c:CHI"
+						country="c:ROC"
 						levels=3
 						region="STATE_FORMOSA"
 					}
@@ -1766,7 +1766,7 @@
 				add_ownership={
 					building={
 						type="building_manor_house"
-						country="c:CHI"
+						country="c:ROC"
 						levels=5
 						region="STATE_FORMOSA"
 					}
@@ -1778,7 +1778,7 @@
 				building="building_port"
 				add_ownership={
 					country={
-						country="c:CHI"
+						country="c:ROC"
 						levels=1
 					}
 				}
