@@ -1,0 +1,8 @@
+﻿DIPLOMACY = {
+	c:SUD ?= {
+		create_diplomatic_pact = {
+			country = c:SSD
+			type = puppet
+		}
+	}		
+}

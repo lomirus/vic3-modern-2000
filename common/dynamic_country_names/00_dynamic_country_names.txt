@@ -2567,36 +2567,6 @@ USA = { # United States of America
 	}
 }
 
-SUD = {
-	dynamic_country_name = { # Mahist State
-		name = dyn_c_mahdist_state
-		adjective = dyn_c_mahdist_state_adj
-		
-		is_main_tag_only = yes
-		priority = 0
-		
-		trigger = {
-			scope:actor ?= {
-				has_law = law_type:law_theocracy
-			}
-		}
-	}
-
-	dynamic_country_name = { # Funj
-		name = dyn_c_funj_state
-		adjective = dyn_c_funj_state_adj
-		
-		is_main_tag_only = yes
-		priority = 0
-		
-		trigger = {
-			scope:actor ?= {
-				has_law = law_type:law_monarchy
-			}
-		}
-	}
-}
-
 LKT = { # Lakota
 	dynamic_country_name = {
 		name = dyn_c_oceti_sakowin

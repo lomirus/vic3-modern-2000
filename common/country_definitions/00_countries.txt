@@ -3632,7 +3632,7 @@ PAL = {
 	
 	cultures = { mashriqi }
 	religion = sunni
-	capital = STATE_PALESTINE
+	capital = STATE_WEST_BANK
 }
 
 TRH = { # Turkestan
@@ -5198,4 +5198,48 @@ UAE = {
 	
 	cultures = { bedouin }
 	capital = STATE_ABU_DHABI
+}
+
+NCP = {
+	color = { 200 30 30 }
+	
+	country_type = unrecognized
+	
+	tier = kingdom
+	
+	cultures = { turkish }
+	capital = STATE_CYPRUS
+}
+
+SSD = {
+	color = { 0 56 168 }
+	
+	country_type = unrecognized
+	
+	tier = kingdom
+	
+	cultures = { nuer dinka }
+	capital = STATE_EQUATEUR
+}
+
+LBY = {
+	color = { 0 102 51 }
+	
+	country_type = recognized
+	
+	tier = kingdom
+	
+	cultures = { maghrebi }
+	capital = STATE_TRIPOLI
+}
+
+WSA = {
+	color = { 215 200 160 }
+	
+	country_type = unrecognized
+	
+	tier = kingdom
+	
+	cultures = { bedouin }
+	capital = STATE_WEST_SAHARA
 }
