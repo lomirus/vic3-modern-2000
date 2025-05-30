@@ -5243,3 +5243,388 @@ WSA = {
 	cultures = { bedouin }
 	capital = STATE_WEST_SAHARA
 }
+
+MAU = {
+	color = { 0 122 61 }
+	
+	country_type = recognized
+	
+	tier = kingdom
+	
+	cultures = { haratin mande }
+	capital = STATE_MAURITANIA
+}
+
+NER = {
+	color = { 235 160 80 }
+	
+	country_type = recognized
+	
+	tier = kingdom
+	
+	cultures = { kanuri tuareg }
+	capital = STATE_OUTER_HAUSALAND
+}
+
+CHD = {
+	color = { 0 102 204 }
+	
+	country_type = recognized
+	
+	tier = kingdom
+	
+	cultures = { fur }
+	capital = STATE_WADDAI
+}
+
+CMR = {
+	color = { 206 17 38 }
+	
+	country_type = recognized
+	
+	tier = kingdom
+	
+	cultures = { fulbe }
+	capital = STATE_SOUTH_CAMEROON
+}
+
+EQG = {
+	color = { 50 150 200 }
+	
+	country_type = recognized
+	
+	tier = kingdom
+	
+	cultures = { equatorial_bantu }
+	capital = STATE_SOUTH_CAMEROON
+}
+
+GAB = {
+	color = { 0 138 69 }
+	
+	country_type = recognized
+	
+	tier = kingdom
+	
+	cultures = { equatorial_bantu }
+	capital = STATE_GABON
+}
+
+SEN = {
+	color = { 220 138 50 }
+	
+	country_type = recognized
+	
+	tier = kingdom
+	
+	cultures = { wolof dyula }
+	capital = STATE_SENEGAL
+}
+
+GAM = {
+	color = { 60 90 180 }
+	
+	country_type = recognized
+	
+	tier = kingdom
+	
+	cultures = { wolof }
+	capital = STATE_GAMBIA
+}
+
+GBS = {
+	color = { 200 35 35 }
+	
+	country_type = recognized
+	
+	tier = kingdom
+	
+	cultures = { fulbe }
+	capital = STATE_GAMBIA
+}
+
+GIN = {
+	color = { 180 30 30 }
+	
+	country_type = recognized
+	
+	tier = kingdom
+	
+	cultures = { mande }
+	capital = STATE_GUINEA
+}
+
+CIV = {
+	color = { 255 153 51 }
+	
+	country_type = recognized
+	
+	tier = kingdom
+	
+	cultures = { dyula senufo }
+	capital = STATE_IVORY_COAST
+}
+
+BFA = {
+	color = { 180 40 40 }
+	
+	country_type = recognized
+	
+	tier = kingdom
+	
+	cultures = { mossi }
+	capital = STATE_VOLTA
+}
+
+GHA = {
+	color = { 51 51 51 }
+	
+	country_type = recognized
+	
+	tier = kingdom
+	
+	cultures = { akan }
+	capital = STATE_GHANA
+}
+
+TOG = {
+	color = { 0 110 55 }
+	
+	country_type = recognized
+	
+	tier = kingdom
+	
+	cultures = { fon yoruba }
+	capital = STATE_TOGO
+}
+
+BEN = {
+	color = { 200 140 20 }
+	
+	country_type = recognized
+	
+	tier = kingdom
+	
+	cultures = { fon yoruba }
+	capital = STATE_DAHOMEY
+}
+
+NGR = {
+	color = { 0 153 76 }
+	
+	country_type = recognized
+	
+	tier = kingdom
+	
+	cultures = { hausa equatorial_bantu fulbe }
+	capital = STATE_EAST_HAUSALAND
+}
+
+CAF = {
+	color = { 0 153 51 }
+	
+	country_type = recognized
+	
+	tier = kingdom
+	
+	cultures = { azande equatorial_bantu }
+	capital = STATE_UBANGI_SHARI
+}
+
+ERI = {
+	color = { 180 25 35 }
+	
+	country_type = recognized
+	
+	tier = kingdom
+	
+	cultures = { tigray }
+	capital = STATE_ERITREA
+}
+
+DJI = {
+	color = { 100 155 233 }
+	
+	country_type = recognized
+	
+	tier = kingdom
+	
+	cultures = { afar }
+	capital = STATE_ERITREA
+}
+
+COG = {
+	color = { 255 200 0 }
+	
+	country_type = recognized
+	
+	tier = kingdom
+	
+	cultures = { bakongo fluvian_bantu }
+	capital = STATE_CONGO
+}
+
+COD = {
+	color = { 0 153 255 }
+	
+	country_type = recognized
+	
+	tier = kingdom
+	
+	cultures = { bakongo fluvian_bantu }
+	capital = STATE_BAS_CONGO
+}
+
+UGA = {
+	color = { 139 69 19 }
+	
+	country_type = recognized
+	
+	tier = kingdom
+	
+	cultures = { baganda fluvian_bantu }
+	capital = STATE_UGANDA
+}
+
+KEN = {
+	color = { 0 104 71 }
+	
+	country_type = recognized
+	
+	tier = kingdom
+	
+	cultures = { kikuyu maasai }
+	capital = STATE_RIFT_VALLEY
+}
+
+SOM = {
+	color = { 80 120 140 }
+	
+	country_type = recognized
+	
+	tier = kingdom
+	
+	cultures = { somali }
+	capital = STATE_SOMALILAND
+}
+
+TZA = {
+	color = { 0 122 94 }
+	
+	country_type = recognized
+	
+	tier = kingdom
+	
+	cultures = { swahili fluvian_bantu }
+	capital = STATE_LINDI
+}
+
+ANG = {
+	color = { 170 20 30 }
+	
+	country_type = recognized
+	
+	tier = kingdom
+	
+	cultures = { bakongo }
+	capital = STATE_NORTH_ANGOLA
+}
+
+STP = {
+	color = { 255 204 0 }
+	
+	country_type = recognized
+	
+	tier = kingdom
+	
+	cultures = { equatorial_bantu }
+	capital = STATE_SAO_TOME_AND_PRINCIPE
+}
+
+CPV = {
+	color = { 0 38 84 }
+	
+	country_type = recognized
+	
+	tier = kingdom
+	
+	cultures = { portuguese }
+	capital = STATE_CAPE_VERDE
+}
+
+ZAM = {
+	color = { 0 102 0 }
+	
+	country_type = recognized
+	
+	tier = kingdom
+	
+	cultures = { chewa lunda lacustrine_bantu kavango_bantu }
+	capital = STATE_ZAMBIA
+}
+
+MLW = {
+	color = { 200 20 30 }
+	
+	country_type = recognized
+	
+	tier = kingdom
+	
+	cultures = { chewa lunda lacustrine_bantu kavango_bantu lomwe yao }
+	capital = TATE_KAZEMBE
+}
+
+MOZ = {
+	color = { 204 153 0 }
+	
+	country_type = recognized
+	
+	tier = kingdom
+	
+	cultures = { shona tonga nguni lacustrine_bantu yao lomwe chewa sena makua }
+	capital = STATE_LOURENCO_MARQUES
+}
+
+BOT = {
+	color = { 109 207 246 }
+	
+	country_type = recognized
+	
+	tier = kingdom
+	
+	cultures = { khoisan herero kavango_bantu }
+	capital = STATE_HEREROLAND
+}
+
+NMB = {
+	color = { 0 102 153 }
+	
+	country_type = recognized
+	
+	tier = kingdom
+	
+	cultures = { khoisan herero kavango_bantu }
+	capital = STATE_NAMAQUALAND
+}
+
+SWZ = {
+	color = { 0 51 153 }
+	
+	country_type = recognized
+	
+	tier = kingdom
+	
+	cultures = { boer xhosa zulu tswana khoisan  }
+	capital = STATE_TRANSVAAL
+}
+
+LES = {
+	color = { 0 122 61 }
+	
+	country_type = recognized
+	
+	tier = kingdom
+	
+	cultures = { sotho xhosa zulu }
+	capital = STATE_TRANSVAAL
+}
