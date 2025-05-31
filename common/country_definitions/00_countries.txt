@@ -196,7 +196,7 @@ JAP = {
 	tier = empire
 	
 	cultures = { japanese }
-	capital = STATE_KANSAI
+	capital = STATE_KANTO
 }
 
 ITA = {
@@ -2079,7 +2079,6 @@ GUA = {
 	
 	cultures = { central_american }
 	capital = STATE_GUATEMALA
-	is_named_from_capital = yes
 }
 
 ALT = {
@@ -5627,4 +5626,191 @@ LES = {
 	
 	cultures = { sotho xhosa zulu }
 	capital = STATE_TRANSVAAL
+}
+
+CMO = {
+	color = { 0 128 96 }
+	
+	country_type = recognized
+	
+	tier = kingdom
+	
+	cultures = { malagasy }
+	capital = STATE_SOUTH_MADAGASCAR
+}
+
+SEY = {
+	color = { 0 90 170 }
+	
+	country_type = recognized
+	
+	tier = kingdom
+	
+	cultures = { bedouin }
+	capital = STATE_INDIAN_OCEAN_TERRITORY
+}
+
+MUS = {
+	color = { 50 120 200 }
+	
+	country_type = recognized
+	
+	tier = kingdom
+	
+	cultures = { malagasy }
+	capital = STATE_INDIAN_OCEAN_TERRITORY
+}
+
+BLZ = {
+	color = { 0 56 168 }
+	
+	country_type = recognized
+	
+	tier = kingdom
+	
+	cultures = { mayan central_american }
+	capital = STATE_GUATEMALA
+}
+
+DOR = {
+	color = { 10 45 125 }
+	
+	country_type = recognized
+	
+	tier = kingdom
+	
+	cultures = { afro_antillean afro_caribeno caribeno }
+	capital = STATE_SANTO_DOMINGO
+}
+
+SKN = {
+	color = { 0 122 61 }
+	
+	country_type = recognized
+	
+	tier = kingdom
+	
+	cultures = { afro_antillean afro_caribbean }
+	capital = STATE_WEST_INDIES
+}
+
+ATG = {
+	color = { 255 200 50 }
+	
+	country_type = recognized
+	
+	tier = kingdom
+	
+	cultures = { afro_antillean afro_caribbean }
+	capital = STATE_WEST_INDIES
+}
+
+DMA = {
+	color = { 34 139 34 }
+	
+	country_type = recognized
+	
+	tier = kingdom
+	
+	cultures = { afro_antillean afro_caribbean }
+	capital = STATE_WEST_INDIES
+}
+
+LCA = {
+	color = { 102 204 255 }
+	
+	country_type = recognized
+	
+	tier = kingdom
+	
+	cultures = { afro_antillean afro_caribbean }
+	capital = STATE_WEST_INDIES
+}
+
+SVG = {
+	color = { 0 150 130 }
+	
+	country_type = recognized
+	
+	tier = kingdom
+	
+	cultures = { afro_antillean afro_caribbean }
+	capital = STATE_WEST_INDIES
+}
+
+BRB = {
+	color = { 252 209 22 }
+	
+	country_type = recognized
+	
+	tier = kingdom
+	
+	cultures = { afro_antillean afro_caribbean }
+	capital = STATE_WEST_INDIES
+}
+
+GRD = {
+	color = { 204 0 0 }
+	
+	country_type = recognized
+	
+	tier = kingdom
+	
+	cultures = { afro_antillean afro_caribbean }
+	capital = STATE_WEST_INDIES
+}
+
+TTO = {
+	color = { 60 60 60 }
+	
+	country_type = recognized
+	
+	tier = kingdom
+	
+	cultures = { afro_antillean afro_caribbean }
+	capital = STATE_WEST_INDIES
+}
+
+GUY = {
+	color = { 255 204 0 }
+	
+	country_type = recognized
+	
+	tier = kingdom
+	
+	cultures = { afro_antillean afro_caribbean }
+	capital = STATE_GUAYANA
+}
+
+SRM = {
+	color = { 206 17 38 }
+	
+	country_type = recognized
+	
+	tier = kingdom
+	
+	cultures = { afro_antillean afro_caribbean }
+	capital = STATE_GUAYANA
+}
+
+PNG = {
+	color = { 153 0 0 }
+	
+	country_type = recognized
+	
+	tier = kingdom
+	
+	cultures = { melanesian }
+	capital = STATE_EASTERN_NEW_GUINEA
+}
+
+SLB = {
+	color = { 0 82 180 }
+	
+	country_type = recognized
+	
+	tier = kingdom
+	
+	cultures = { melanesian }
+	capital = STATE_SOLOMON_ISLANDS
 }
