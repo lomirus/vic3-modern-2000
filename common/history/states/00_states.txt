@@ -4337,7 +4337,7 @@ STATES = {
 		create_state = {
 			country = c:FJI
 			owned_provinces = { 
-				x53FA6E x61A3E3 xC04D30
+				x53FA6E x61A3E3 
 			}
 		}
 		add_homeland = cu:melanesian
@@ -4384,15 +4384,35 @@ STATES = {
 		create_state = {
 			country = c:TNG
 			owned_provinces = {
-				 x208030 xa7f8a1
+				 xC00010 
 			}
 		}
 
 		create_state = {
 			country = c:SAM
 			owned_provinces = {
-				xC00010  xd98cda 	
+				  xd98cda 	
 			}
+		}
+		create_state = {
+			country = c:USA
+			owned_provinces = {
+				  xa7f8a1
+			}
+			state_type = unincorporated
+		}
+		create_state = {
+			country = c:NZL
+			owned_provinces = {
+				  x208030 
+			}
+		}
+		create_state = {
+			country = c:FRA
+			owned_provinces = {
+				   xC04D30
+			}
+			state_type = unincorporated
 		}
 		
 		add_homeland = cu:polynesian

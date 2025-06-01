@@ -2543,9 +2543,9 @@ SLK = {
 TNG = {
 	color = { 69 38 162 }
 	
-	country_type = decentralized
+	country_type = recognized
 	
-	tier = principality
+	tier = kingdom
 	
 	cultures = { polynesian }
 	capital = STATE_TONGA
