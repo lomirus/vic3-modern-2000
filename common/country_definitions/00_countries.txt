@@ -5814,3 +5814,36 @@ SLB = {
 	cultures = { melanesian }
 	capital = STATE_SOLOMON_ISLANDS
 }
+
+PLW = {
+	color = { 102 204 255 }
+	
+	country_type = recognized
+	
+	tier = kingdom
+	
+	cultures = { melanesian }
+	capital = STATE_WEST_MICRONESIA
+}
+
+MRL = {
+	color = { 0 51 153 }
+	
+	country_type = recognized
+	
+	tier = kingdom
+	
+	cultures = { melanesian }
+	capital = STATE_EAST_MICRONESIA
+}
+
+TVL = {
+	color = { 102 204 204 }
+	
+	country_type = recognized
+	
+	tier = kingdom
+	
+	cultures = { micronesian }
+	capital = STATE_EAST_MICRONESIA
+}

@@ -125,12 +125,12 @@ SKH = { # Sakhalin
 MCR = { # Micronesia
 	color = { 248 218 99 }
 	
-	country_type = decentralized
+	country_type = recognized
 
-	tier = principality
+	tier = kingdom
 	
 	cultures = { micronesian }
-	capital = STATE_EAST_MICRONESIA
+	capital = STATE_WEST_MICRONESIA
 }
 
 
@@ -148,9 +148,9 @@ VNT = { # Vanuatu
 NRU = { # Nauru
 	color = { 231 131 17 }
 	
-	country_type = decentralized
+	country_type = recognized
 
-	tier = principality
+	tier = kingdom
 	
 	cultures = { melanesian }
 	capital = STATE_NAURU

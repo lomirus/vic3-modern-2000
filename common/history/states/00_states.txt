@@ -1150,8 +1150,16 @@ STATES = {
 	}
 	s:STATE_EAST_MICRONESIA = {
 		create_state = {
-			country = c:MCR
-			owned_provinces = { xF5DBBF x80C011 x808090 x808011 xCD1EA0 x527F6C }
+			country = c:MRL
+			owned_provinces = { xF5DBBF x80C011 x808011 xCD1EA0  }
+		}
+		create_state = {
+			country = c:TVL
+			owned_provinces = { x808090 }
+		}
+		create_state = {
+			country = c:USA
+			owned_provinces = { x527F6C }
 		}
 		
 		add_homeland = cu:micronesian
@@ -1160,13 +1168,17 @@ STATES = {
 	s:STATE_WEST_MICRONESIA = {
 		create_state = {
 			country = c:MCR
-			owned_provinces = {  xa7f7e3  x6e4206  }
+			owned_provinces = { x6e4206 x414170 x71414D}
 		}
 		
 		create_state = {
 			country = c:USA
-			owned_provinces = { x414170 xEF50C0}
+			owned_provinces = { xEF50C0}
 			state_type = unincorporated
+		}
+		create_state = {
+			country = c:PLW
+			owned_provinces = { xa7f7e3}
 		}
 		add_homeland = cu:micronesian
 	}
