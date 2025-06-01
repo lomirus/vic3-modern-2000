@@ -401,63 +401,8 @@ ALD = { # Algeria
 		coa = ALD
 		subject_canton = ALD
 		allow_overlord_canton = yes
-		coa_with_overlord_canton = ALD_subject		
+		coa_with_overlord_canton = ALD	
 		priority = 1
-	}
-	flag_definition = {
-		coa = ALD_republic
-		subject_canton = ALD_republic
-		priority = 10
-		trigger = { 
-			coa_def_republic_flag_trigger = yes
-		}
-	}
-	flag_definition = {
-		coa = ALD_subject_FRA
-		priority = 30
-		trigger = { 
-			coa_def_french_ensign_trigger = yes
-		}
-	}
-	flag_definition = {
-		coa = ALD_deylik
-		subject_canton = ALD_deylik
-		priority = 30
-		trigger = { 
-			scope:actor ?= { has_variable = algeria_deylik_restored }
-		}
-	}
-	flag_definition = {
-		coa = ALD_barbary
-		subject_canton = ALD_barbary
-		priority = 30
-		trigger = { 
-			scope:actor ?= { has_variable = algeria_barbary_restored }
-		}
-	}
-	flag_definition = {
-		coa = CON
-		subject_canton = CON
-		priority = 5
-		trigger = { 
-			scope:actor ?= { has_variable = algeria_constantine_var }
-		}
-	}
-	flag_definition = {
-		coa = MAS
-		subject_canton = MAS
-		priority = 5
-		trigger = { 
-			scope:actor ?= { has_variable = algeria_mascara_var }
-		}
-	}
-	flag_definition = {
-		coa = AIT
-		subject_canton = AIT
-		priority = 5
-		trigger = { 
-			scope:actor ?= { has_variable = algeria_ait_abbas_var }
-		}
 	}
 }
 
@@ -2972,43 +2917,9 @@ EGY = { # Egypt
 		coa = EGY
 		subject_canton = EGY
 		allow_overlord_canton = yes	
-		coa_with_overlord_canton = EGY_subject			
+		coa_with_overlord_canton = EGY			
 		priority = 1
 	}
-	flag_definition = {
-		coa = EGY_absolute_monarchy
-		subject_canton = EGY_absolute_monarchy
-		allow_overlord_canton = yes	
-		coa_with_overlord_canton = EGY_subject			
-		priority = 20
-		trigger = { 
-			coa_def_absolute_monarchy_flag_trigger = yes
-		}
-	}	
-	flag_definition = {
-		coa = EGY_republic
-		subject_canton = EGY_republic
-		priority = 10
-		trigger = { 
-			coa_def_republic_flag_trigger = yes
-		}
-	}		
-	flag_definition = {
-		coa = EGY_dictatorship
-		subject_canton = EGY_dictatorship
-		priority = 20
-		trigger = {
-			coa_def_dictatorship_flag_trigger = yes
-		}
-	}	
-	flag_definition = {
-		coa = EGY_subject_GBR
-		allow_overlord_canton = yes		
-		priority = 50
-		trigger = { 
-			coa_def_british_ensign_trigger = yes
-		}
-	}		
 }
 
 ELS = { # El Salvador
@@ -5590,25 +5501,8 @@ LIB = { # Liberia
 	flag_definition = {
 		coa = LIB
 		subject_canton = LIB
-		allow_overlord_canton = yes			
-		overlord_canton_scale = { 0.35 @[1 / 13 * 7] }		
+		allow_overlord_canton = yes					
 		priority = 1
-	}	
-	flag_definition = {
-		coa = LIB_dictatorship
-		subject_canton = LIB_dictatorship
-		allow_overlord_canton = yes	
-		priority = 20
-		trigger = {
-			coa_def_dictatorship_flag_trigger = yes
-		}
-	}	
-	flag_definition = {
-		coa = LIB
-		priority = 50
-		trigger = { 
-			coa_def_american_ensign_trigger = yes
-		}
 	}	
 }
 
@@ -5823,14 +5717,6 @@ SUD = { #Sudan
 		coa = SUD
 		subject_canton = SUD
 		priority = 5
-	}
-	flag_definition = {
-		coa = SUD_theocracy
-		subject_canton = SUD_theocracy
-		priority = 10
-		trigger = {
-			coa_def_theocracy_flag_trigger = yes
-		}
 	}
 }
 
@@ -6228,40 +6114,10 @@ MOR = { # Morocco
 		coa = MOR
 		subject_canton = MOR
 		allow_overlord_canton = yes		
-		coa_with_overlord_canton = MOR_subject			
+		coa_with_overlord_canton = MOR			
 		priority = 1
 	}
-	flag_definition = {
-		coa = MOR_absolute_monarchy
-		subject_canton = MOR_absolute_monarchy
-		allow_overlord_canton = yes		
-		coa_with_overlord_canton = MOR_subject			
-		priority = 20
-		trigger = { 
-			coa_def_absolute_monarchy_flag_trigger = yes
-		}
-	}	
-	flag_definition = {
-		coa = MOR_subject	
-		allow_overlord_canton = yes	
-		overlord_canton_offset = { 0.01 0.015 }
-		overlord_canton_scale = { 0.48 0.47 }			
-		priority = 50
-		trigger = { 
-			coa_def_french_ensign_trigger = yes
-		}
-	}
-	flag_definition = {
-		coa = MOR_subject_gold
-		subject_canton = MOR
-		allow_overlord_canton = yes	
-		overlord_canton_offset = { 0.01 0.015 }
-		overlord_canton_scale = { 0.48 0.47 }			
-		priority = 50
-		trigger = { 
-			coa_def_spanish_ensign_trigger = yes
-		}
-	}	
+	
 }
 
 MST = {
