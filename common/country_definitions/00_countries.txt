@@ -5858,3 +5858,14 @@ SAM = {
 	cultures = { polynesian }
 	capital = STATE_TONGA
 }
+
+KIR = {
+	color = { 255 204 0 }
+	
+	country_type = recognized
+	
+	tier = kingdom
+	
+	cultures = { micronesian }
+	capital = STATE_EAST_MICRONESIA
+}
