@@ -103,9 +103,9 @@ KTI = { # Kutai
 FJI = { # Fiji
 	color = { 159 173 219 }
 	
-	country_type = decentralized
+	country_type = recognized
 
-	tier = principality
+	tier = kingdom
 	
 	cultures = { melanesian }
 	capital = STATE_FIJI

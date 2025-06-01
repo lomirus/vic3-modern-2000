@@ -5847,3 +5847,14 @@ TVL = {
 	cultures = { micronesian }
 	capital = STATE_EAST_MICRONESIA
 }
+
+SAM = {
+	color = { 206 17 38 }
+	
+	country_type = recognized
+	
+	tier = kingdom
+	
+	cultures = { polynesian }
+	capital = STATE_TONGA
+}

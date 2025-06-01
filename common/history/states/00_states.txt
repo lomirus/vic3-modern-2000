@@ -4380,7 +4380,14 @@ STATES = {
 		create_state = {
 			country = c:TNG
 			owned_provinces = {
-				xC00010 x208030 xd98cda xa7f8a1
+				 x208030 xa7f8a1
+			}
+		}
+
+		create_state = {
+			country = c:SAM
+			owned_provinces = {
+				xC00010  xd98cda 
 			}
 		}
 		
