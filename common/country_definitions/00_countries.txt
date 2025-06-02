@@ -967,7 +967,7 @@ CRE = {
 }
 
 CRO = {
-	color = { 174  227  95 }
+	color = { 220  20  60 }
 	
 	country_type = recognized
 
@@ -975,7 +975,7 @@ CRO = {
 	
 	cultures = { croat }
 	capital = STATE_CROATIA
-	is_named_from_capital = yes
+	
 }
 
 CYP = {
@@ -5923,4 +5923,15 @@ SMR = {
 	
 	cultures = { north_italian }
 	capital = STATE_UMBRIA
+}
+
+VAT = {
+	color = { 245 210 60 }
+	
+	country_type = recognized
+	
+	tier = kingdom
+	
+	cultures = { south_italian }
+	capital = STATE_LAZIO
 }

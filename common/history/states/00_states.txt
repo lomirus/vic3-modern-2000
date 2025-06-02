@@ -1470,7 +1470,11 @@ STATES = {
 	s:STATE_LAZIO = {
 		create_state = {
 			country = c:ITA
-			owned_provinces = { xB5726E xB0C0A0 xB040A0 x3040A0}
+			owned_provinces = { xB5726E xB0C0A0 xB040A0}
+		}
+		create_state = { 
+			country = c:VAT
+			owned_provinces = { x3040A0 }
 		}
 		
 		add_homeland = cu:south_italian
@@ -6105,7 +6109,7 @@ STATES = {
 	}
 	s:STATE_DALMATIA = {
 		create_state = {
-			country = c:AUS
+			country = c:CRO
 			owned_provinces = { xF9421B xEFA0C0 x11A0E0 }
 		}
 		
@@ -6114,7 +6118,7 @@ STATES = {
 	}
 	s:STATE_CROATIA = {
 		create_state = {
-			country = c:AUS
+			country = c:CRO
 			owned_provinces = { x71A041 x70DF00 x6D8BC6 xF021C0 x71A0C0 xB39050 xB339EC x458E4C }
 		}
 		
@@ -6123,8 +6127,16 @@ STATES = {
 	}
 	s:STATE_SLAVONIA = {
 		create_state = {
-			country = c:AUS
-			owned_provinces = { x51A021 x106020 x13318D x906121 x80CF00 x902161 x1A4DF9 }
+			country = c:CRO
+			owned_provinces = { x51A021 x106020 x13318D x906121 x80CF00 }
+		}
+		create_state = {
+			country = c:SER
+			owned_provinces = { x902161 x1A4DF9 }
+		}
+		create_state = {
+			country = c:BOS
+			owned_provinces = { xDA817B } 
 		}
 		
 		add_homeland = cu:croat
@@ -6142,7 +6154,11 @@ STATES = {
 	s:STATE_TRANSDANUBIA = {
 		create_state = {
 			country = c:HUN
-			owned_provinces = { xF0E001 x6F8D2A x716180 x27F483 x3C6913 xCF2020 x906A5F x715F5D xCACEBC xC139B7 xCFDFDF x2668FB xB02121 x1CAC04 xA709B7 x124D73 x30A020 }
+			owned_provinces = { xF0E001 x6F8D2A x716180 x27F483 x3C6913 xCF2020 x906A5F x715F5D xCACEBC xC139B7 xCFDFDF x2668FB xB02121 x1CAC04   x30A020 }
+		}
+		create_state = {
+			country = c:SLO
+			owned_provinces = { xA709B7 x124D73}
 		}
 		
 		add_homeland = cu:hungarian
@@ -6151,14 +6167,14 @@ STATES = {
 	s:STATE_ISTRIA = {
 		create_state = {
 			country = c:ITA
-			owned_provinces = { x108021  x7705e3 }
+			owned_provinces = { x108021 }
 		}
 		create_state = {
-			country = c:SVN
+			country = c:SLO
 			owned_provinces = { x56C78A x3060BF}
 		}
 		create_state = {
-			country = c:HRV
+			country = c:CRO
 			owned_provinces = { x36B2E3 xF0A040 xB061C0 }
 		}
 		
@@ -6235,7 +6251,7 @@ STATES = {
 	}
 	s:STATE_SLOVENIA = {
 		create_state = {
-			country = c:AUS
+			country = c:SLO
 			owned_provinces = { x31E041 xB0E040 x792B8A x44F127 }
 		}
 		
@@ -6521,9 +6537,8 @@ STATES = {
 	}
 	s:STATE_MALTA = {
 		create_state = {
-			country = c:GBR
+			country = c:MLT
 			owned_provinces = { x015121 x3a8b51 }
-			state_type = unincorporated
 		}
 		
 		add_homeland = cu:maltese
