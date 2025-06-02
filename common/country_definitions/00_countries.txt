@@ -5935,3 +5935,14 @@ VAT = {
 	cultures = { south_italian }
 	capital = STATE_LAZIO
 }
+
+LIE = {
+	color = { 0 56 168 }
+	
+	country_type = recognized
+	
+	tier = kingdom
+	
+	cultures = { north_german south_german }
+	capital = STATE_TYROL
+}

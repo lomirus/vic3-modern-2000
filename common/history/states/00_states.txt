@@ -4712,20 +4712,11 @@ STATES = {
 	s:STATE_MONTENEGRO = {
 		create_state = {
 			country = c:SER
-			owned_provinces = { xF5F6C2 xA12F82 x446E84 }
-		}
-		create_state = {
-			country = c:SER
-			owned_provinces = { x8C6292 }
-		}
-		create_state = {
-			country = c:SER
-			owned_provinces = { x90A0E0 }
+			owned_provinces = { xF5F6C2 xA12F82 x446E84 x8C6292 x90A0E0}
 		}
 		
-		add_homeland = cu:SER
 		add_homeland = cu:albanian
-		add_claim = c:MON
+		
 	}
 	s:STATE_NORTHERN_SERBIA = {
 		create_state = {
@@ -6158,7 +6149,11 @@ STATES = {
 		}
 		create_state = {
 			country = c:SLO
-			owned_provinces = { xA709B7 x124D73}
+			owned_provinces = { xA709B7 }
+		}
+		create_state = {
+			country = c:CRO
+			owned_provinces = { x124D73}
 		}
 		
 		add_homeland = cu:hungarian
@@ -6227,7 +6222,11 @@ STATES = {
 	s:STATE_TYROL = {
 		create_state = {
 			country = c:AUS
-			owned_provinces = { x51C0E0 x4A9C68 xEC6873 xC74CD7 xF061C0 xAB7EB0 x5D4166 xD0C0E0 xF0E0C0 }
+			owned_provinces = { x51C0E0 x4A9C68 xEC6873 xC74CD7 xF061C0 xAB7EB0 x5D4166 xF0E0C0 }
+		}
+		create_state = {
+			country = c:LIE
+			owned_provinces = { xD0C0E0 }
 		}
 		
 		add_homeland = cu:south_german
@@ -6260,13 +6259,13 @@ STATES = {
 	}
 	s:STATE_DELVIDEK = {
 		create_state = {
-			country = c:AUS
+			country = c:SER
 			owned_provinces = { x77143D x901B70 x9E1AD1 x11E021 x626998 xC347D8 }
 		}
 		
 		add_homeland = cu:hungarian
 		add_homeland = cu:serb
-		add_claim = c:SER
+	
 	}
 	s:STATE_POSEN = {
 		create_state = {
