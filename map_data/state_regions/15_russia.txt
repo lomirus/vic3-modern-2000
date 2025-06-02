@@ -520,7 +520,7 @@ STATE_TVER = {
         bg_logging = 36
         bg_coal_mining = 8
     }
-} 
+}
 
 STATE_CHERSON = {
     id = 146
