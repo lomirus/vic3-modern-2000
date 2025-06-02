@@ -37,5 +37,12 @@
 			type = puppet
 		}
 	}
+
+	c:FRA ?= {
+		create_diplomatic_pact = {
+			country = c:MNA
+			type = puppet
+		}
+	}
 }
 
