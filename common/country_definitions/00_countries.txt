@@ -5869,3 +5869,14 @@ KIR = {
 	cultures = { micronesian }
 	capital = STATE_EAST_MICRONESIA
 }
+
+AND = {
+	color = { 0 57 166 }
+	
+	country_type = recognized
+	
+	tier = kingdom
+	
+	cultures = { catalan }
+	capital = STATE_CATALONIA
+}
