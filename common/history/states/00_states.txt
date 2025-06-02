@@ -65,13 +65,13 @@ STATES = {
 	}
 	s:STATE_PROVENCE = {
 		create_state = {
-			country = c:SAR
+			country = c:MNA
 			owned_provinces = { x5080E0 }
 		}
 
 		create_state = {
 			country = c:FRA
-			owned_provinces = { x3040E0 x31C0DF x6D5E3F xB040E0 xB0C060 xB0C0E0 xC03918 xCB9C34 }
+			owned_provinces = {  x31C0DF x6D5E3F xB040E0 xB0C060 xB0C0E0 xC03918 xCB9C34 x3040E0 }
 		}
 		
 		add_homeland = cu:french
@@ -1419,7 +1419,7 @@ STATES = {
 	}
 	s:STATE_SAVOY = {
 		create_state = {
-			country = c:SAR
+			country = c:FRA
 			owned_provinces = { x56B04B xDDDD3B x6B4BA4 xD000E0 }
 		}
 		
@@ -2969,11 +2969,11 @@ STATES = {
 	s:STATE_WALLONIA = {
 		create_state = {
 			country = c:LUX
-			owned_provinces = { xD001A0 }
+			owned_provinces = { xD001A0 x5180A0}
 		}
 		create_state = {
 			country = c:BEL
-			owned_provinces = { xB0A0C0 x916574 x2D32D7 x8080A0 xEF2040 x3A5FB9 x5180A0 }
+			owned_provinces = { xB0A0C0 x916574 x2D32D7 x8080A0 xEF2040 x3A5FB9  }
 		}
 
 		add_homeland = cu:wallonian
@@ -3000,12 +3000,7 @@ STATES = {
 	s:STATE_GELRE = {
 		create_state = {
 			country = c:NET
-			owned_provinces = { xC0C0A0 x4C4894 xAF3A54 x41C0A0 }
-		}
-
-		create_state = {
-			country = c:BEL
-			owned_provinces = { x0000DF }
+			owned_provinces = { xC0C0A0 x4C4894 xAF3A54 x41C0A0 x0000DF}
 		}
 
 		add_homeland = cu:dutch

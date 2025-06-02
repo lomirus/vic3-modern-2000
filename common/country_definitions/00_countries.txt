@@ -5880,3 +5880,14 @@ AND = {
 	cultures = { catalan }
 	capital = STATE_CATALONIA
 }
+
+MNA = {
+	color = { 220 30 30 }
+	
+	country_type = recognized
+	
+	tier = kingdom
+	
+	cultures = { occitan }
+	capital = STATE_PROVENCE
+}
