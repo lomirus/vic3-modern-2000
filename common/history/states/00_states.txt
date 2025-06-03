@@ -1008,7 +1008,7 @@ STATES = {
 			owned_provinces = { xE0C020 xD616D2 x08B4D6 x11E041 x945748 x906040 x936FF3  xC2FFD9 x890622 x7D3FD7 x60F080 x0C64AC}
 		}
 		create_state = {
-			country = c:AND
+			country = c:ADR
 			owned_provinces = { x2914C3 }
 		}
 		
