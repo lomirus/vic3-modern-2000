@@ -231,59 +231,6 @@ AFG = { # Afghanistan
 		allow_overlord_canton = yes	
 		priority = 1
 	}
-	flag_definition = {
-		coa = AFG_durrani
-		subject_canton = AFG_durrani
-		priority = 30
-		trigger = {
-			coa_def_monarchy_flag_trigger = yes
-			scope:actor = {
-				was_formed_from = HER
-			}
-		}
-	}
-	flag_definition = {
-		coa = AFG_absolute_monarchy
-		subject_canton = AFG_absolute_monarchy
-		allow_overlord_canton = yes			
-		coa_with_overlord_canton = AFG_subject				
-		priority = 20
-		trigger = { 
-			coa_def_absolute_monarchy_flag_trigger = yes
-		}
-	}	
-	flag_definition = {
-		coa = AFG_republic
-		subject_canton = AFG_republic
-		priority = 10
-		trigger = { 
-			coa_def_republic_flag_trigger = yes
-		}
-	}
-	flag_definition = {
-		coa = AFG_dictatorship
-		subject_canton = AFG_dictatorship
-		priority = 20
-		trigger = {
-			coa_def_dictatorship_flag_trigger = yes
-		}
-	}	
-	flag_definition = {
-		coa = AFG_theocracy
-		subject_canton = AFG_theocracy
-		priority = 20
-		trigger = { 
-			coa_def_theocracy_flag_trigger = yes
-		}
-	}
-	flag_definition = {
-		coa = AFG_subject_GBR
-		allow_overlord_canton = yes		
-		priority = 50
-		trigger = { 
-			coa_def_british_ensign_trigger = yes
-		}
-	}
 }
 
 AFS = {
@@ -979,19 +926,11 @@ BHU = { # Bhutan
 		coa = BHU
 		subject_canton = BHU
 		allow_overlord_canton = yes			
-		coa_with_overlord_canton = BHU_subject
+		coa_with_overlord_canton = BHU
 		overlord_canton_offset = { 0 0.1 }
 		overlord_canton_scale = { 0.4 0.4 }			
 		priority = 1
 	}
-	flag_definition = {
-		coa = BHU_subject_GBR
-		allow_overlord_canton = yes		
-		priority = 50
-		trigger = { 
-			coa_def_british_ensign_trigger = yes
-		}
-	}	
 }
 
 BHV = { # Bhavnagar
@@ -1344,60 +1283,10 @@ BRI = { # Brittany
 BRU = { # Brunei
 	flag_definition = {
 		coa = BRU
-		subject_canton = BRU_subject
+		subject_canton = BRU
 		allow_overlord_canton = yes
 		priority = 1
-	}
-	flag_definition = {
-		coa = BRU_absolute_monarchy
-		subject_canton = BRU_absolute_monarchy
-		allow_overlord_canton = yes		
-		priority = 20
-		trigger = { 
-			coa_def_absolute_monarchy_flag_trigger = yes
-		}
-	}
-	flag_definition = {
-		coa = BRU_subject
-		allow_overlord_canton = yes
-		priority = 20
-		trigger = { 
-			coa_def_colonial_ensign_trigger = yes
-		}
-	}
-	flag_definition = {
-		coa = BRU_republic
-		subject_canton = BRU_republic
-		priority = 10
-		trigger = { 
-			coa_def_republic_flag_trigger = yes
-		}
 	}	
-	flag_definition = {
-		coa = BRU_dictatorship
-		subject_canton = BRU_dictatorship
-		priority = 20
-		trigger = {
-			coa_def_dictatorship_flag_trigger = yes
-		}
-	}	
-	flag_definition = {
-		coa = BRU_theocracy
-		subject_canton = BRU_theocracy
-		priority = 20
-		trigger = { 
-			coa_def_theocracy_flag_trigger = yes
-		}
-	}
-#	flag_definition = { #united Borneo, Brunei Empire Flag
-#		coa = BRU_absolute_monarchy
-#		subject_canton = BRU_absolute_monarchy
-#		allow_overlord_canton = yes
-#		priority = 25
-#		trigger = {
-#		
-#		}
-#	}	
 }	
 
 BRZ = { # Brazil
@@ -2445,18 +2334,11 @@ CYP = { # Cyprus
 	flag_definition = {
 		coa = CYP
 		subject_canton = CYP
-		coa_with_overlord_canton = CYP_subject
+		coa_with_overlord_canton = CYP
 		allow_overlord_canton = yes
 		priority = 1
 	}
-	flag_definition = {
-		coa = CYP_TUR
-		subject_canton = CYP_TUR
-		priority = 50
-		trigger = { 
-			coa_def_turkish_ensign_trigger = yes
-		}
-	}		
+			
 }
 
 CZH = { # Czechoslovakia
@@ -2534,53 +2416,9 @@ DAI = { # Dai Nam
 		coa = DAI
 		subject_canton = DAI
 		allow_overlord_canton = yes		
-		coa_with_overlord_canton = DAI_subject
+		coa_with_overlord_canton = DAI
 		priority = 5
-		trigger = { 
-			coa_def_absolute_monarchy_flag_trigger = yes
-		}		
 	}		
-	flag_definition = {
-		coa = DAI_monarchy
-		subject_canton = DAI_monarchy
-		allow_overlord_canton = yes
-		coa_with_overlord_canton = DAI_subject		
-		priority = 1
-		trigger = { 
-			coa_def_monarchy_flag_trigger = yes
-		}
-	}	
-	flag_definition = {
-		coa = DAI_republic
-		subject_canton = DAI_republic
-		allow_overlord_canton = yes			
-		priority = 10
-		trigger = { 
-			coa_def_republic_flag_trigger = yes
-		}
-	}		
-	flag_definition = {
-		coa = DAI_communist
-		priority = 1500
-		trigger = { 
-			coa_def_communist_flag_trigger = yes
-		}
-	}	
-	flag_definition = {
-		coa = DAI_fascist
-		subject_canton = DAI_fascist
-		priority = 1500
-		trigger = { 
-			coa_def_fascist_flag_trigger = yes
-		}
-	}	
-	flag_definition = {
-		coa = DAI_subject_FRA
-		priority = 50
-		trigger = { 
-			coa_def_french_ensign_trigger = yes
-		}
-	}	
 }
 
 DEI = { # Dutch East India Company
@@ -3168,31 +3006,6 @@ GEO = { # Georgia
 		subject_canton = GEO
 		priority = 1
 	}
-	flag_definition = {
-		coa = GEO_theocracy
-		subject_canton = GEO_theocracy
-		priority = 20
-		trigger = { 
-			OR = {
-				coa_def_theocracy_flag_trigger = yes
-				AND = {
-					scope:actor = {
-						is_country_type = unrecognized
-						NOT = {
-							has_technology_researched = nationalism
-						}
-					}
-				}
-			}
-		}
-	}
-	flag_definition = {
-		coa = GEO_communist
-		priority = 1500
-		trigger = { 
-			coa_def_communist_flag_trigger = yes
-		}
-	}		
 }
 
 GER = { # Germany
@@ -3822,14 +3635,6 @@ IDN = { # Indonesia
 		priority = 1
 	}
 
-	flag_definition = {
-		coa = IDN_republic
-		subject_canton = IDN_republic
-		priority = 5
-		trigger = {
-			coa_def_republic_flag_trigger = yes
-		}
-	}
 }
 
 IND = { # Indore
@@ -3896,22 +3701,7 @@ IRQ = { # Iraq
 		subject_canton = IRQ	
 		priority = 1
 	}
-	flag_definition = {
-		coa = IRQ_absolute_monarchy
-		subject_canton = IRQ_absolute_monarchy
-		priority = 20
-		trigger = { 
-			coa_def_absolute_monarchy_flag_trigger = yes
-		}
-	}	
-	flag_definition = {
-		coa = IRQ_republic
-		subject_canton = IRQ_republic
-		priority = 10
-		trigger = { 
-			coa_def_republic_flag_trigger = yes
-		}
-	}	
+	
 }
 
 ISR = { # Israel
@@ -4304,47 +4094,12 @@ KAZ = { # Kazakhstan
 		coa = KAZ
 		subject_canton = KAZ
 		allow_overlord_canton = yes
-		coa_with_overlord_canton = KAZ_subject	
+		coa_with_overlord_canton = KAZ
 		overlord_canton_offset = { 0 0.1 }
 		overlord_canton_scale = { 0.4 0.4 }			
 		priority = 1
 	}
-	flag_definition = {
-		coa = KAZ_absolute_monarchy
-		subject_canton = KAZ_absolute_monarchy
-		allow_overlord_canton = yes
-		coa_with_overlord_canton = KAZ_subject	
-		overlord_canton_offset = { 0 0.1 }
-		overlord_canton_scale = { 0.4 0.4 }			
-		priority = 20
-		trigger = { 
-			coa_def_absolute_monarchy_flag_trigger = yes
-		}
-	}	
-	flag_definition = {
-		coa = KAZ_republic
-		subject_canton = KAZ_republic
-		priority = 10
-		trigger = { 
-			coa_def_republic_flag_trigger = yes
-		}
-	}	
-	flag_definition = {
-		coa = KAZ_subject_GBR
-		allow_overlord_canton = yes				
-		priority = 50
-		trigger = { 
-			coa_def_british_ensign_trigger = yes
-		}
-	}	
-	flag_definition = {
-		coa = KAZ_communist
-		subject_canton = KAZ_communist		
-		priority = 1000
-		trigger = { 
-			coa_def_communist_flag_trigger = yes
-		}
-	}	
+	
 }
 
 KHI = { # Khiva
@@ -4642,16 +4397,9 @@ LAO = { # Laos
 		coa = LAO
 		subject_canton = LAO
 		allow_overlord_canton = yes		
-		coa_with_overlord_canton = LAO_subject	
+		coa_with_overlord_canton = LAO
 		priority = 1
 	}
-	flag_definition = {
-		coa = LAO_communist
-		priority = 1500
-		trigger = { 
-			coa_def_communist_flag_trigger = yes
-		}
-	}	
 }
 
 LAT = { # Latvia
@@ -5133,14 +4881,6 @@ MLD = { # Maldives
 		allow_overlord_canton = no
 		priority = 1
 	}		
-	flag_definition = {
-		coa = MLD_merchant
-		subject_canton = MLD_merchant
-		priority = 100
-		trigger = { 
-			coa_def_republic_flag_trigger = yes
-		}
-	}	
 }
 
 MLT = { # Malta
@@ -5638,22 +5378,11 @@ NEP = { # Nepal
 		coa = NEP
 		subject_canton = NEP
 		allow_overlord_canton = yes			
-		coa_with_overlord_canton = NEP_subject
+		coa_with_overlord_canton = NEP
 		overlord_canton_offset = { 0 0.1 }
 		overlord_canton_scale = { 0.4 0.4 }			
 		priority = 1
 	}
-	flag_definition = {
-		coa = NEP_subject
-		subject_canton = NEP
-		allow_overlord_canton = yes	
-		overlord_canton_offset = { 0 0.1 }
-		overlord_canton_scale = { 0.39 0.385 }			
-		priority = 50
-		trigger = { 
-			coa_def_spanish_ensign_trigger = yes
-		}
-	}	
 }
 
 NET = { # Netherlands
@@ -5942,44 +5671,9 @@ OMA = { # Oman
 		coa = OMA
 		subject_canton = OMA
 		allow_overlord_canton = yes	
-		coa_with_overlord_canton = OMA_subject	
+		coa_with_overlord_canton = OMA
 		priority = 1
 	}
-	flag_definition = {
-		coa = OMA_merchant
-		priority = 10
-		allow_overlord_canton = yes	
-		coa_with_overlord_canton = OMA_subject			
-		trigger = { 
-			coa_def_republic_flag_trigger = yes
-		}
-	}	
-	flag_definition = {
-		coa = OMA_subject_GBR
-		allow_overlord_canton = yes		
-		priority = 50
-		trigger = { 
-			coa_def_british_ensign_trigger = yes
-		}
-	}
-	flag_definition = {
-		coa = OMA_subject	
-		allow_overlord_canton = yes	
-		overlord_canton_offset = { 0.01 0.015 }
-		overlord_canton_scale = { 0.48 0.47 }			
-		priority = 50
-		trigger = { 
-			coa_def_french_ensign_trigger = yes
-		}
-	}	
-	flag_definition = {
-		coa = OMA_subject_GBR
-		allow_overlord_canton = yes		
-		priority = 50
-		trigger = { 
-			coa_def_spanish_ensign_trigger = yes
-		}
-	}	
 }	
 
 ONT = { # Ontario
@@ -6827,82 +6521,10 @@ ROM = { # Romania
 
 RUS = { # Russia
 	flag_definition = {
-		coa = RUS_imperial
+		coa = RUS
 		allow_overlord_canton = yes		
-		subject_canton = RUS_imperial
+		subject_canton = RUS
 		priority = 1
-	}
-	flag_definition = {
-		coa = RUS_absolute_monarchy
-		subject_canton = RUS 
-		priority = 20
-		trigger = { 
-			coa_def_absolute_monarchy_flag_trigger = yes
-		}
-	}	
-	flag_definition = {
-		coa = RUS_republic
-		subject_canton = RUS_republic
-		priority = 10
-		trigger = { 
-			coa_def_republic_flag_trigger = yes
-		}
-	}		
-	flag_definition = {
-		coa = RUS_dictatorship
-		subject_canton = RUS_dictatorship
-		priority = 20
-		trigger = {
-			coa_def_dictatorship_flag_trigger = yes
-		}
-	}	
-	flag_definition = {
-		coa = RUS_oligarchy
-		subject_canton = RUS_oligarchy
-		priority = 25
-		trigger = {
-			coa_def_oligarchy_flag_trigger = yes
-		}
-	}	
-	flag_definition = {
-		coa = RUS_soviet_union
-		priority = 1500 # need to override the DEFAULT
-		trigger = { 
-			coa_def_communist_flag_trigger = yes
-		}
-	}
-	flag_definition = {
-		coa = RUS_soviet_technocracy
-		priority = 1750 # need to override the DEFAULT
-		trigger = { 
-			coa_def_communist_flag_trigger = yes
-			scope:actor ?= {
-				has_law = law_type:law_technocracy
-			}
-		}
-	}
-	flag_definition = {
-		coa = RUS_fascist
-		subject_canton = RUS_fascist
-		priority = 1500
-		trigger = { 
-			coa_def_fascist_flag_trigger = yes
-		}
-	}	
-	flag_definition = {
-		coa = RUS_theocracy
-		subject_canton = RUS_theocracy
-		priority = 20
-		trigger = { 
-			coa_def_theocracy_flag_trigger = yes
-		}
-	}	
-	flag_definition = {
-		coa = RUS_nihilist
-		priority = 1500 # need to override the DEFAULT
-		trigger = { 
-			coa_def_nihilist_flag_trigger = yes
-		}
 	}
 }	
 
@@ -7496,18 +7118,9 @@ SYR = { # Syria
 		coa = SYR
 		subject_canton = SYR
 		allow_overlord_canton = yes		
-		coa_with_overlord_canton = SYR_subject		
+		coa_with_overlord_canton = SYR	
 		priority = 1
 	}
-	flag_definition = {
-		coa = SYR_republic
-		subject_canton = SYR_republic
-		allow_overlord_canton = yes			
-		priority = 10
-		trigger = { 
-			coa_def_republic_flag_trigger = yes
-		}
-	}	
 }
 
 TAS = { # Tasmania
@@ -8355,36 +7968,9 @@ YEM = { # Yemen
 		coa = YEM
 		subject_canton = YEM
 		allow_overlord_canton = yes
-		coa_with_overlord_canton = YEM_subject			
+		coa_with_overlord_canton = YEM			
 		priority = 1
 	}
-	flag_definition = {
-		coa = YEM_subject_GBR
-		allow_overlord_canton = yes		
-		priority = 50
-		trigger = { 
-			coa_def_british_ensign_trigger = yes
-		}
-	}	
-	flag_definition = {
-		coa = YEM_subject	
-		allow_overlord_canton = yes	
-		overlord_canton_offset = { 0.01 0.015 }
-		overlord_canton_scale = { 0.48 0.47 }			
-		priority = 50
-		trigger = { 
-			coa_def_french_ensign_trigger = yes
-		}
-	}	
-	flag_definition = {
-		coa = YEM_subject_GBR
-		subject_canton = YEM
-		allow_overlord_canton = yes			
-		priority = 50
-		trigger = { 
-			coa_def_spanish_ensign_trigger = yes
-		}
-	}		
 }
 
 YOG = { # Yogyakarta
@@ -8948,22 +8534,7 @@ TJI = { # Tajikistan
 		subject_canton = TJI
 		priority = 1
 	}
-	flag_definition = {
-		coa = TJI_republic
-		subject_canton = TJI_republic
-		priority = 10
-		trigger = {
-			coa_def_republic_flag_trigger = yes
-		}
-	}
-	flag_definition = {
-		coa = TJI_communist
-		subject_canton = TJI_communist
-		priority = 1000
-		trigger = {
-			coa_def_communist_flag_trigger = yes
-		}
-	}
+
 }
 
 NCR = { # North Carolina
@@ -9049,22 +8620,6 @@ UZB = { # Uzbekistan
 		coa = UZB
 		subject_canton = UZB
 		priority = 1
-	}
-	flag_definition = {
-		coa = UZB_republic
-		subject_canton = UZB_republic
-		priority = 10
-		trigger = { 
-			coa_def_republic_flag_trigger = yes
-		}
-	}
-	flag_definition = {
-		coa = UZB_communist
-		subject_canton = UZB_communist
-		priority = 1000
-		trigger = {
-			coa_def_communist_flag_trigger = yes
-		}
 	}
 }
 

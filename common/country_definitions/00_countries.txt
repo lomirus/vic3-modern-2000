@@ -191,9 +191,9 @@ GRI = {
 
 JAP = {
 	color = { 194 53 60 }
-	country_type = unrecognized
+	country_type = recognized
 	
-	tier = empire
+	tier = kingdom
 	
 	cultures = { japanese }
 	capital = STATE_KANTO
@@ -1121,7 +1121,7 @@ ABU = {
 AFG = {
 	color = { 92  148  152 }
 	
-	country_type = unrecognized
+	country_type = recognized
 	
 	tier = kingdom
 	
@@ -1203,7 +1203,7 @@ HDJ = {
 IRQ = {
 	color = { 122 132 110 }
 	
-	country_type = unrecognized
+	country_type = recognized
 	
 	tier = kingdom
 	
@@ -1236,7 +1236,7 @@ KOK = {
 KAZ = {
 	color = { 110 150 190 }
 	
-	country_type = unrecognized
+	country_type = recognized
 	
 	tier = kingdom
 	
@@ -1272,14 +1272,13 @@ NEJ = {
 OMA = {
 	color = { 98  134  153 }
 	
-	country_type = unrecognized
+	country_type = recognized
 	
-	tier = principality
+	tier = kingdom
 	
 	cultures = { bedouin }
 	religion = shiite
 	capital = STATE_OMAN
-	is_named_from_capital = yes
 }
 
 PER = {
@@ -1307,13 +1306,12 @@ JAB = {
 YEM = {
 	color = { 255  191  191 }
 	
-	country_type = unrecognized
+	country_type = recognized
 	
 	tier = kingdom
 	
 	cultures = { yemenite bedouin }
 	capital = STATE_YEMEN
-	is_named_from_capital = yes
 }
 
 MAH = {
@@ -1365,7 +1363,7 @@ LAH = {
 BHN = {
 	color = { 169  51  51 }
 	
-	country_type = unrecognized
+	country_type = recognized
 	
 	tier = principality
 	
@@ -1376,9 +1374,9 @@ BHN = {
 HND = {
 	color = { 150 77 240 }
 	
-	country_type = unrecognized
+	country_type = recognized
 	
-	tier = empire
+	tier = kingdom
 	
 	cultures = { marathi bihari tamil oriya gujarati }
 	capital = STATE_DELHI
@@ -1638,7 +1636,7 @@ NAG = {
 NEP = {
 	color = { 137  183  124 }
 	
-	country_type = unrecognized
+	country_type = recognized
 	
 	tier = kingdom
 	
@@ -1732,9 +1730,9 @@ BAL = {
 BHU = {
 	color = { 93  180  76 }
 	
-	country_type = unrecognized
+	country_type = recognized
 	
-	tier = principality
+	tier = kingdom
 	
 	cultures = { tibetan }
 	capital = STATE_HIMALAYAS
@@ -1754,9 +1752,9 @@ LAN = {
 BRU = {
 	color = { 41  89  174 }
 	
-	country_type = unrecognized
+	country_type = recognized
 	
-	tier = principality
+	tier = kingdom
 	
 	cultures = { bornean }
 	capital = STATE_NORTH_BORNEO
@@ -1776,7 +1774,7 @@ BUR = {
 CAM = {
 	color = { 127  180  60 }
 	
-	country_type = unrecognized
+	country_type = recognized
 	
 	tier = kingdom
 	
@@ -1798,7 +1796,7 @@ CHI = {
 DAI = {
 	color = { 136  117  90 }
 	
-	country_type = unrecognized
+	country_type = recognized
 	
 	tier = kingdom
 	
@@ -1834,13 +1832,12 @@ KOR = {
 LAO = {
 	color = { 188 15 45 }
 	
-	country_type = unrecognized
+	country_type = recognized
 	
 	tier = kingdom
 	
 	cultures = { lao }
 	capital = STATE_LAOS
-	is_named_from_capital = yes
 }
 
 LUA = {
@@ -3374,9 +3371,9 @@ PNI = {
 CEY = {
 	color = hsv360{ 0  70  61 }
 	
-	country_type = unrecognized
+	country_type = recognized
 	
-	tier = principality
+	tier = kingdom
 	
 	cultures = { sinhala }
 	capital = STATE_CEYLON
@@ -3484,8 +3481,8 @@ DON = {
 
 SYR = {
 	color = { 241 245 240 }
-	country_type = unrecognized
-	tier = principality
+	country_type = recognized
+	tier = kingdom
 	cultures = { mashriqi }
 	religion = sunni
 	capital = STATE_SYRIA
@@ -3501,8 +3498,8 @@ EOT = {
 
 LEB = {
 	color = { 18 201 27 }
-	country_type = unrecognized
-	tier = principality
+	country_type = recognized
+	tier = kingdom
 	cultures = { mashriqi }
 	capital = STATE_LEBANON
 }
@@ -4323,9 +4320,9 @@ FLR = {
 PAK = {
 	color = { 164 157 96 }
 
-	country_type = unrecognized
+	country_type = recognized
 
-	tier = empire
+	tier = kingdom
 	
 	cultures = { kashmiri panjabi sindi baluchi pashtun }
 	religion = sunni
@@ -4954,12 +4951,12 @@ BCE = { # British Ceylon
 MLD = { # Maldives
 	color = { 0 132 61 }
 	
-	country_type = unrecognized
-	social_hierarchy = british_indian_caste_system
+	country_type = recognized
+	
 
 	religion = sunni
 	
-	tier = principality
+	tier = kingdom
 	
 	capital = STATE_CEYLON
 	cultures = { sinhala }
@@ -5978,3 +5975,6 @@ MKD = {
 	cultures = { romanian }
 	capital = STATE_SKOPIA
 }
+
+
+
