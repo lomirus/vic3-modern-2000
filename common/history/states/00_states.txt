@@ -1170,6 +1170,7 @@ STATES = {
 		create_state = {
 			country = c:USA
 			owned_provinces = { x527F6C }
+			state_type = unincorporated
 		}
 		create_state = {
 			country = c:KIR
