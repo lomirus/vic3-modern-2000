@@ -190,7 +190,7 @@ GRI = {
 }
 
 JAP = {
-	color = { 194 53 60 }
+	color = { 255 255 255 }
 	country_type = recognized
 	
 	tier = kingdom
@@ -1073,7 +1073,7 @@ SLO = {
 }
 
 TUR = {
-	color = { 170  206  162 }
+	color = { 160  50  80 }
 	
 	country_type = recognized
 
@@ -1372,7 +1372,7 @@ BHN = {
 }
 
 HND = {
-	color = { 150 77 240 }
+	color = { 250 110 0 }
 	
 	country_type = recognized
 	
@@ -1783,7 +1783,7 @@ CAM = {
 }
 
 CHI = {
-	color = { 204 0 0 }
+	color = { 160 20 20 }
 	
 	country_type = recognized
 	
@@ -1830,7 +1830,7 @@ KOR = {
 }
 
 LAO = {
-	color = { 188 15 45 }
+	color = { 160 210 110 }
 	
 	country_type = recognized
 	
@@ -1975,7 +1975,7 @@ CAL = {
 }
 
 CAN = {
-	color = { 191  10  48 }
+	color = { 180  100  160 }
 	
 	country_type = recognized
 	
@@ -4998,7 +4998,7 @@ IDS = {
 }
 
 ROK = {
-	color = { 0 51 153 }
+	color = { 0 71 160 }
 	
 	country_type = recognized
 	
@@ -5009,7 +5009,7 @@ ROK = {
 }
 
 NKO = {
-	color = { 160 0 0 }
+	color = { 150 40 60 }
 	
 	country_type = recognized
 	
@@ -5020,7 +5020,7 @@ NKO = {
 }
 
 ROC = {
-	color = { 0 51 153 }
+	color = { 80 60 160 }
 	
 	country_type = unrecognized
 	
@@ -5031,7 +5031,7 @@ ROC = {
 }
 
 THA = {
-	color = { 204 0 0 }
+	color = { 170 60 50 }
 	
 	country_type = recognized
 	
@@ -5119,7 +5119,7 @@ BGD = {
 }
 
 IRN = {
-	color = { 0 102 51 }
+	color = { 50 100 90 }
 	
 	country_type = recognized
 	
@@ -5218,7 +5218,7 @@ SSD = {
 }
 
 LBY = {
-	color = { 0 102 51 }
+	color = { 130 180 0 }
 	
 	country_type = recognized
 	
@@ -5251,7 +5251,7 @@ MAU = {
 }
 
 NER = {
-	color = { 235 160 80 }
+	color = { 244 160 58 }
 	
 	country_type = recognized
 	
@@ -5262,7 +5262,7 @@ NER = {
 }
 
 CHD = {
-	color = { 0 102 204 }
+	color = { 168 208 128 }
 	
 	country_type = recognized
 	
@@ -5790,7 +5790,7 @@ SRM = {
 }
 
 PNG = {
-	color = { 153 0 0 }
+	color = { 0 140 110 }
 	
 	country_type = recognized
 	
@@ -5966,7 +5966,7 @@ TMR = {
 }
 
 MKD = {
-	color = { 206 17 38 }
+	color = { 255 220 80 }
 	
 	country_type = recognized
 	
