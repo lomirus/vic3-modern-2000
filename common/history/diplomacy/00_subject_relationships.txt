@@ -1,0 +1,42 @@
+﻿DIPLOMACY = {
+	c:SUD ?= {
+		create_diplomatic_pact = {
+			country = c:SSD
+			type = puppet
+		}
+	}	
+	
+	c:USA ?= {
+		create_diplomatic_pact = {
+			country = c:PCO
+			type = protectorate
+		}
+	}	
+
+	c:CHI ?= {
+		create_diplomatic_pact = {
+			country = c:HKG
+			type = puppet
+		}
+		create_diplomatic_pact = {
+			country = c:MAC
+			type = puppet
+		}
+	}
+
+	c:IDN ?= {
+		create_diplomatic_pact = {
+			country = c:TLS
+			type = puppet
+		}
+	}
+
+	c:ARM ?= {
+		create_diplomatic_pact = {
+			country = c:NKB
+			type = puppet
+		}
+	}
+
+}
+

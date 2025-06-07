@@ -1,0 +1,18 @@
+﻿DIPLOMATIC_PLAYS = {
+	c:SSD = {
+		create_diplomatic_play = {
+			
+			target_country = c:SUD
+
+			war = yes
+		
+			type = dp_independence
+
+			add_war_goal = {
+				holder = c:SUD
+				type = annex_country
+				target_country = c:SSD
+			}
+		}			
+	}
+}

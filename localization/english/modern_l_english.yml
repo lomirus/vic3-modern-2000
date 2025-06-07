@@ -15,6 +15,6 @@
  goods_output_house_add_desc: "Amount of @house! Housing produced by facilities"
  building_housing_industry: "Housing Industry"
  popneed_live_at_home: "Living Space"
- alpha0_intro.1.t: "Modernization Mod: Alpha 0"
- alpha0_intro.1.d: "Thank you for trying this early prototype of the Modernization Mod.\n\nCurrently Implemented Features:\n- United States only: Population adjusted to match modern estimates\n- United States only: National borders updated to year 2000\n- Construction system restructured (Investment Bureau, construction/maintenance goods, housing demand)\n\n Other countries are not yet updated. Balancing is also not yet done.\n\nThis is the foundation for further development. Feedback or participation is welcome!"
+ alpha0_intro.1.t: "Modernization Mod: ver 0.1"
+ alpha0_intro.1.d: "Thank you for trying this early prototype of the Modernization Mod.\n\nCurrently implemented features:\n✓2000 borders recreated\n✓Updated national flags\nPlanned features:\n・2000 population data for each country\n・Modernization of the economy and political systems\n\n ⚠Please note: Some countries currently have no pops and are unplayable. However, this version serves as a foundation for future development, and we welcome any feedback or participation."
  alpha0_intro.1.a: "Understood!"
