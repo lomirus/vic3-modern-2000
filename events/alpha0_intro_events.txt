@@ -5,7 +5,9 @@ alpha0_intro.1 = {
 	title = alpha0_intro.1.t
 	desc = alpha0_intro.1.d
 	
-
+	event_image = {
+		texture = "gfx/event_pictures/key_visual.png"
+	}
 	trigger = {
     }
 
